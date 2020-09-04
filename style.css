@@ -1,0 +1,136 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 992px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+header {
+    font-family: tahoma;
+    font-size: 15px;
+    background: #f1f1f1;
+    padding: 20px 0;
+
+}
+.main-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+.main-menu ul li {
+    display: inline;
+    text-align: center;
+}
+.main-menu ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.main-menu ul li:hover a {
+    background: linear-gradient(#ccc,#ddd);
+    border-radius: 4px;
+}
+
+/*protfolio section start start here*/
+.heading {
+    font-size: 30px;
+}
+span {
+    color: orange;
+}
+section {
+    padding-top: 60px;
+   
+}
+.left-content {
+    width: 50%;
+    float: left;
+ 
+}
+.right-content {
+    width: 50%;
+    overflow: hidden;
+}
+.right-content img {
+    width: 80%;
+}
+.developer-section, .protfolio-section {
+    overflow: hidden;
+}
+.button {
+    text-decoration:none;
+    background: #f78768;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+}
+.developer-section .right-content {
+    background:url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 50px;
+   
+}
+.develop-left-content {
+    width: 50%;
+    float: left;
+    
+
+}
+.develop-left-content img {
+    width: 80%;
+}
+.develop-right-content {
+    overflow: hidden;
+    width: 50%;
+}
+
+/*experience */
+.experience-section,
+.developer-section {
+    overflow: hidden;
+}
+.experience-section {
+    padding-bottom: 60px;
+}
+.card1 {
+    width: 43%;
+    margin: 0 3%;
+    float: left;
+    box-shadow: 8px 12px 40px;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 5px solid orange;
+}
+.card2 {
+    width: 43%;
+    margin: 0 3%;
+    overflow: hidden;
+    box-shadow: 8px 12px 40px;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 5px solid orange;
+}
+.background {
+    background: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px;
+
+}
+
+.footer-area {
+    padding: 50px 0;
+    text-align: center;
+    background: #f1f1f1;
+}

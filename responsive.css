@@ -1,0 +1,28 @@
+@media all and (max-width:768px) {
+    .left-content {
+        float: none;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .right-content {
+        width: 100%;
+    }
+    .develop-left-content {
+        float: none;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .develop-right-content {
+        width: 100%;
+    }
+    .card1 {
+        float: none;
+        width: 100%;
+        padding-right: 10px;
+    }
+    .card2 {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+    }
+}
